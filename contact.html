@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Jacob Bobrov</h1>
+        <h2>Freshman, Bergen Tech, Teterboro</h2>
+        <h3>Computer Science</h3>
+    </header>
+    <br>
+    <nav>
+        <a href="index.html"><button class="nav_button" onclick="about.html">Home</button></a>
+        <a href="about.html"><button class="nav_button" onclick="about.html">About Me</button></a>
+        <a href="interests.html"><button class="nav_button" onclick="about.html">My Interests</button></a>
+        <a href="contact.html"><button class="nav_button" onclick="about.html">Contact</button></a>
+    </nav>
+    <main>
+        <h2>Contact Form</h2>
+    <form action="results.html" method="GET">
+        <table>
+            <!-- Basic text -->
+            
+            <tr>
+                <td><label for="Name">Name</label></td>
+                <td><input type="text" name="Name"></td>
+            </tr>
+
+            <!-- Email with validation -->
+            
+            <tr>
+                <td><label for="Email">Email</label></td>
+                <td><input type="email" name="Email" id="email"></td>
+            </tr>
+
+            <tr>
+                <td><label for="Town">Home Town</label></td>
+                <td><input type="password" name="Town" id="password"></td>
+            </tr>
+            
+            <tr>
+                <td><label for="Phone">Phone</label></td>
+                <td><input type="tel" name="phone" id="phone"></td>
+            </tr>
+           
+            <tr>
+                <td><label for="Website">Website</label></td>
+                <td><input type="url" name="website" id="website"></td>
+            </tr>
+
+             <tr>
+                <td><label for="Date">Date:</label></td>
+                <td><input type="date" name="" id=""></td>
+             </tr>
+
+            <tr>
+                <td><label for="message">Message:</label></td>
+                <td><textarea name="message" id="message" rows="4"></textarea></td>
+            </tr>
+
+            <tr>
+                <td>Grade:</td>
+                <td>
+                    <label><input type="radio" name="grade9" value="9">9th Grade</label><br>
+                    <label><input type="radio" name="grade10" value="10">10th Grade</label><br>
+                    <label><input type="radio" name="grade11" value="11">11th Grade</label><br>
+                    <label><input type="radio" name="grade12" value="12">12th Grade</label>
+                    
+                </td>
+            </tr>
+            
+            <tr>
+                <td>Favorite Sports</td>
+                <td>
+                    <label for="sports">Select:</label>
+                    <select name="sports" id="sports">
+                        <option value="none" selected disabled>Select a sport</option>
+                        <option value="soccer">Soccer</option>
+                        <option value="baseball">Baseball</option>
+                        <option value="Basketball">Basketball</option>
+                        <option value="Tennis/Pickleball">Tennis/Pickleball</option>
+                        <option value="no-sports">None</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+        <!-- <input type="submit" value="Submit"> -->
+
+        <button type="submit" id="submit">Submit</button>
+        <br><br><br>
+        <button type="reset">Clear Form</button>
+        <p>
+            School Email: jacbob29@bergen.org <br>
+            GitHub Repo Link: <a href="https://github.com/jacbob14/Unit1-HTML-EOU-Project" target="blank">Unit1-HTML-EOU-Project. Username: jacbob14</a>
+
+        </p>
+
+    </main>
+    
+    <footer>
+        <hr>
+        Email: jacbob29@bergen.org | Phone Number: +1 (123) 456 7890
+    </footer>
+</body>
+</html>

@@ -9,3 +9,48 @@ header {
     text-align: center;
     border-radius: 15px;
 }
+
+nav {
+    background-color: rgb(200, 173, 141);
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+button {
+    background-color: rgb(200, 173, 141);
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    border: none;
+}
+
+img {
+    border-radius: 30%;
+    width: 250px;
+}
+
+.nav_button {
+    background-color: rgb(150, 123, 91);
+    border-radius: 30%;
+    border: none;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 5px;
+}
+
+.float {
+    float: left;
+}
+
+footer {
+    background-color: rgb(200, 173, 141);
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+
